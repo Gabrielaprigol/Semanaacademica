@@ -1,7 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.titulo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.body{
+    background-color: rgb(46, 50, 207);
+}
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 
+#nav {
+    background-color:rgb(4, 26, 125);
+}    
+
+li {
+    list-style: none;
+    float: right;
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+}
+
+ .menu {
+    position: relative;
+    font-family: 'Ubuntu';
+ }
 
 .col-1 {
     width: 8.33%;
