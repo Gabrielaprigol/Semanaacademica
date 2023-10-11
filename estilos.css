@@ -97,8 +97,21 @@ header {
     background-image: url(img/fundo1.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;   
+}
+
+.carousel{
+    height: 400px;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+img {
+    width: 100%
 }
 
 .clearfix::before{
