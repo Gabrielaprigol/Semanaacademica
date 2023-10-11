@@ -65,18 +65,26 @@ a:link{
 }
 
 #nav ul li:hover{
-    background-color: rgb(2, 14, 68);
+    background-color: rgb(2, 14, 68, 0.856);
     border-radius: 17px;
     padding-right:  25px;
     padding-left: 25px;
 } 
+
+header {
+    background-image: url(img/human-head-in-futuristic-artificial-intelligence-design-theme-printed-circuit-board-outline-illustration-for-design-element-modern-technology-networking-with-ai-processor-png.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .frase{
     background-color: rgba(0, 0, 0, 0.74);
     border-radius: 8px;
     position: relative;
     text-align: center;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
     color: white;
     font-size: 25px;
     letter-spacing: 3px;
