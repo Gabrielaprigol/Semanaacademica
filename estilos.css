@@ -14,6 +14,19 @@
     font-size: 40px;
 }
 
+.titulo_1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    padding-bottom: 80px;    
+}
+
+.titulo_2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;    
+}
+
 .aj{
     padding-left: 25px;
 }
@@ -57,6 +70,7 @@
     position: relative;
     font-size: 18px;
     text-decoration: none;
+    color: white;
  }
 
 a:link{
@@ -88,8 +102,8 @@ header {
     color: white;
     font-size: 25px;
     letter-spacing: 3px;
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .banner{
@@ -97,17 +111,20 @@ header {
     background-image: url(img/fundo1.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;   
+    backdrop-filter: blur(2px);
+    background-position: center;
+    border-bottom: 4px solid #3333336e;   
 }
 
 .carousel{
-    height: 400px;
+    height: 300px;
 }
 
 .carousel img {
-    height: 400px;
+    border-radius: 10px;
+    height: 300px;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 
 img {
