@@ -141,9 +141,13 @@ h5 {
     object-position: center
 }
 
+.banner1{
+    background-image: url(img/o-que-e-inteligencia-artificial.jpg);
+    position: relative;
+
+}
 #jogos {
     padding: 15px;
-    background-color:rgb(1, 16, 82);
     color: white;
 }
  
@@ -166,7 +170,6 @@ img {
 }
 
 #oficinas{
-    background-color:rgb(1, 16, 82) ;
     color: white;
 }
 .img_oficinas{
