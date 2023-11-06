@@ -143,7 +143,6 @@ h5 {
 
 .banner1{
     content: "";
-    background-color:rgba(0, 0, 0, 0.637) ;
     background-image: url(img/o-que-e-inteligencia-artificial.jpg);
     background-repeat: no-repeat;
     position: relative;
@@ -153,10 +152,20 @@ h5 {
 
 }
 #jogos {
+    background-color:rgba(0, 0, 0, 0.637) ;
     padding: 15px;
     color: white;
 }
  
+.banner2{
+    content: "";
+    background-image: url(img/circuito.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
 img {
     width: 100%
 }
@@ -176,6 +185,7 @@ img {
 }
 
 #oficinas{
+    background-color:rgba(0, 0, 0, 0.637) ;
     color: white;
 }
 .img_oficinas{
@@ -199,12 +209,12 @@ img {
 }
 #cronograma {
     padding-top: 15px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.644);
     color: white;
 }
 
 #inscrição{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.829);
     color: white;
 }
 
