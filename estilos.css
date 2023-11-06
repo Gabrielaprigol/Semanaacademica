@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-
+body{
+    background-color: black;
+}
 * {
     margin: 0;
     padding: 0;
@@ -152,11 +154,31 @@ h5 {
     backdrop-filter: blur(5px);
 }
 
+.banner1{
+    content: "";
+    background-image: url(img/o-que-e-inteligencia-artificial.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+
+}
 #jogos {
+    background-color:rgba(0, 0, 0, 0.637) ;
     padding: 15px;
     color: white;
 }
  
+.banner2{
+    content: "";
+    background-image: url(img/cir.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
 img {
     width: 100%
 }
@@ -210,10 +232,12 @@ img {
 }
 #cronograma {
     padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.644);
     color: white;
 }
 
 #inscrição{
+    background-color:  rgba(0, 0, 0, 0.644);
     color: white;
 }
 
