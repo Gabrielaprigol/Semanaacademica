@@ -143,6 +143,7 @@ h5 {
 
 .banner1{
     content: "";
+    background-color:rgba(0, 0, 0, 0.637) ;
     background-image: url(img/o-que-e-inteligencia-artificial.jpg);
     background-repeat: no-repeat;
     position: relative;
