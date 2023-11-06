@@ -159,6 +159,7 @@ h5 {
  
 .banner2{
     content: "";
+    background-color: black;
     background-image: url(img/cir.png);
     background-repeat: no-repeat;
     position: relative;
