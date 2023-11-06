@@ -64,6 +64,8 @@
     padding-left: 25px;
     padding-right: 25px;
     position: relative;
+    transition: background-color 0.5s ease; 
+    border-radius: 5px;
 }
 
 .menu {
@@ -81,6 +83,7 @@
     border-radius: 17px;
     padding-right:  25px;
     padding-left: 25px;
+    transition: all 0.7s ease-in;
 } 
 
 header {
@@ -96,12 +99,11 @@ header {
     border-radius: 8px;
     position: relative;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
     color: white;
     font-size: 25px;
     letter-spacing: 3px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -109,8 +111,9 @@ h3 {
 }
 
 h5 {
-    text-align: justify;
+    text-align: center;
     padding: 25px;
+    padding-bottom: 30px;
 }
 
 .banner{
@@ -188,6 +191,45 @@ img {
 #cronograma {
     padding-top: 15px;
     background-color: black;
+    color: white;
+}
+
+#inscrição{
+    background-color: black;
+    color: white;
+}
+
+.frase1{
+    background-color: rgba(1, 16, 82, 0.74);
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.botão {
+    width: 450px;
+    position: relative;
+    left: 355px;
+    float: calc(700px);
+    background-color: black;
+    background-position: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.botão:hover {
+    background-color: rgb(126, 124, 124);
+    transition: all 1.0s ease-in;
+}
+
+#fotos{ 
+    background-color:rgb(1, 16, 82) ;
     color: white;
 }
 

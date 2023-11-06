@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+}
+
+body {
+    background-color: #000000;
+}
+
+form {
+    overflow: hidden;
+}
+
+form fieldset {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(1, 16, 82);
+    color: white;
+    font-family: 'Orbitron';
+}
+
+form legend {
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="datetime"] {
+    border: none;
+    width: 98.6%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.input-check {
+    display: inline-block;
+}
+
+.input-check input[type="checkbox"]+label {
+    display: inline-block;
+    font-weight: normal;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    color: #6b6a6a;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Orbitron';
+}
+
+button[type="reset"] {
+    background-color: #202020;
+    font-family: 'Orbitron';
+}
+
+button:hover {
+    background-color: #012a55;
+}
+
+header {
+    background-color: rgb(1, 16, 82);
+    color: white;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-family: 'Orbitron';
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    left: 51.5px;
+}
