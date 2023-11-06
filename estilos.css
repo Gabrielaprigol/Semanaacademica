@@ -141,14 +141,35 @@ h5 {
     object-position: center
 }
 
+.banner1{
+    content: "";
+    background-image: url(img/o-que-e-inteligencia-artificial.jpg);
+    background-color:  rgb(2, 14, 68);;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
 #jogos {
     padding: 15px;
-    background-color:rgb(1, 16, 82);
     color: white;
 }
  
 img {
     width: 100%
+}
+
+.banner2{
+    content: "";
+    background-image: url(img/Circuit-logo-vector-Graphics-19145876-1-removebg.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
 }
 
 .img_jogos {
@@ -166,7 +187,6 @@ img {
 }
 
 #oficinas{
-    background-color:rgb(1, 16, 82) ;
     color: white;
 }
 .img_oficinas{
@@ -190,12 +210,10 @@ img {
 }
 #cronograma {
     padding-top: 15px;
-    background-color: black;
     color: white;
 }
 
 #inscrição{
-    background-color: black;
     color: white;
 }
 
@@ -212,6 +230,18 @@ img {
     padding-bottom: 30px;
 }
 
+.fundo {
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 10px;
+}
+
+.fundo1 {
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
 .botão {
     width: 450px;
     position: relative;
@@ -221,17 +251,17 @@ img {
     background-position: center;
     border-radius: 20px;
     padding: 20px;
+    transition: ease 0.5s;
 }
 
 .botão:hover {
     background-color: rgb(126, 124, 124);
-    transition: all 1.0s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 #fotos{ 
     background-color:rgb(1, 16, 82) ;
     color: white;
-    padding-top: 20px;
 }
 
 .carousel2{
