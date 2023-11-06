@@ -142,8 +142,12 @@ h5 {
 }
 
 .banner1{
+    content: "";
     background-image: url(img/o-que-e-inteligencia-artificial.jpg);
+    background-repeat: no-repeat;
     position: relative;
+    background-size: cover;
+    background-position: center;
 
 }
 #jogos {
