@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscrição para a SCI</title>
     <link rel="stylesheet" href="inscrição.css">
+
+    <script>
+        function validar(){
+            var email = document.forms [email].value;
+
+            if (email.lenght < 8) {
+                alert ("Email inválido!");
+                return
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -31,7 +42,7 @@
                         </div>
                         <div class="input-container">
                             <label for="email">Email</label>
-                            <input type="email" name="email" placeholder="Email" required>
+                            <input id="email" type="email" name="email" placeholder="Email" required>
                         </div>
                         <div class="input-container">
                             <label for="turma">Turma</label>
@@ -47,7 +58,7 @@
                             </select>
                         </div>
                         <div class="actions">
-                            <button type="submit">Cadastrar</button>
+                            <button type="submit" onclick="validar">Cadastrar</button>
                             <button type="reset">Limpar</button>
                         </div>
                 </fieldset>
