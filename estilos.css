@@ -370,3 +370,54 @@ img {
 .col-12 {
     width: 99.96%;
 }
+
+.rodape {
+    background-color: rgb(2, 14, 68);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.rodape span {
+    font-size: 20px;
+    color: white;
+}
+
+.rodape-black {
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape-div {
+    padding: 14px 0px 14px 540px
+}
