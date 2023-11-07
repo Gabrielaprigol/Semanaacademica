@@ -313,7 +313,11 @@ img {
     object-fit: cover;
     object-position: center
 }
-
+ footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+ }
 
 [class*="col-"] {
     float: left;

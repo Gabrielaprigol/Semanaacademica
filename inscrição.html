@@ -8,13 +8,8 @@
 
     <script>
         function validar(){
-            var email = document.forms [email].value;
-
-            if (email.lenght < 8) {
-                alert ("Email inválido!");
-                return
-            }
-        }
+            var cpf = document.getElementById(cpf)
+             }
     </script>
 </head>
 <body>
@@ -38,7 +33,7 @@
                         </div>
                         <div class="input-container">
                             <label for="cpf">CPF</label>
-                            <input type="datetime" name="cpf" placeholder="CPF" oninput="mascara(this)" required>
+                            <input type="datetime" id="cpf" name="cpf" placeholder="CPF" oninput="mascara(this)" required>
                         </div>
                         <div class="input-container">
                             <label for="email">Email</label>
@@ -66,5 +61,10 @@
 
         </section>
     </main>
+    <footer>
+        Videira - SC
+        3533-2364
+        Copyright © 2023 – Todos os Direitos Reservados.
+    </footer>
 </body>
 </html>
